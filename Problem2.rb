@@ -1,3 +1,4 @@
+# Sum of all the even valued terms in a Fibonacci sequence(value of last term in the seq < 500)
 class EvenFibSum
 	
 	def fib(n)

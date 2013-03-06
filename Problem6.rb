@@ -1,3 +1,4 @@
+#Difference of the sum of the squares of first 100 natural numbers and the square of their sum
 class SumSqDiff
 	def sum_of_squares(n)
 		(1..100).inject(0){|sum,i| sum += i*i}
