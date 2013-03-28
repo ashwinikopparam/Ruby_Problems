@@ -1,11 +1,11 @@
 #Difference of the sum of the squares of first 100 natural numbers and the square of their sum
 class SumSqDiff
 	def sum_of_squares(n)
-		(1..100).inject(0){|sum,i| sum += i*i}
+		(1..100).inject(0){|sum, i| sum += i*i}
 	end
 	def square_of_sum(n)
 		sum = 0
-		(1..100).inject(0){|sum,i| sum +=i}
+		(1..100).inject(0){|sum, i| sum += i}
 		sum*sum
 	end
 	def diff_of_sum(num1,num2)
